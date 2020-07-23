@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
 
-namespace CourseLibrary.API.Entities
+namespace CourseLibrary.DataAccessLayer.DomainModel
 {
     public class Course
     {
-        [Key]       
+        [Key]
         public Guid Id { get; set; }
 
         [Required]

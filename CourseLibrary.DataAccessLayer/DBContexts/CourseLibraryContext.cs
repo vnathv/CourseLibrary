@@ -1,8 +1,10 @@
-﻿using CourseLibrary.API.Entities;
+﻿using CourseLibrary.DataAccessLayer.DomainModel;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace CourseLibrary.API.DbContexts
+namespace CourseLibrary.DataAccessLayer.DBContexts
 {
     public class CourseLibraryContext : DbContext
     {

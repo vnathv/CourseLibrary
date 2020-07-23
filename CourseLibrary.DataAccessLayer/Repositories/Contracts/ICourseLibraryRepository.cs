@@ -1,11 +1,12 @@
-﻿using CourseLibrary.API.Entities;
+﻿using CourseLibrary.DataAccessLayer.DomainModel;
 using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace CourseLibrary.API.Services
+namespace CourseLibrary.DataAccessLayer.Repositories.Contracts
 {
     public interface ICourseLibraryRepository
-    {    
+    {
         IEnumerable<Course> GetCourses(Guid authorId);
         Course GetCourse(Guid authorId, Guid courseId);
         void AddCourse(Guid authorId, Course course);
