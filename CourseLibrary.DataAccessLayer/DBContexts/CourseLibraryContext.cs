@@ -1,8 +1,6 @@
 ﻿using CourseLibrary.DataAccessLayer.DomainModel;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CourseLibrary.DataAccessLayer.DBContexts
 {
